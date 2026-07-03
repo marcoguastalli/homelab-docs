@@ -57,6 +57,6 @@ identical dashboards with zero clicking.
 ## What is deliberately absent
 
 - **Log aggregation (Loki):** not in the initial platform. `docker logs`
-  + Dockge's read-only log view cover the single-node case. Revisit via
+  plus Dockge's read-only log view cover the single-node case. Revisit via
   proposal when debugging across services becomes painful.
 - **Tracing:** out of scope for household workloads.
