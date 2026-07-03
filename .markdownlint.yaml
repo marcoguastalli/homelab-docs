@@ -1,4 +1,5 @@
 # markdownlint configuration — consumed by CI and editors.
+---
 default: true
 
 # Line length: relaxed for tables and code blocks, 100 chars for prose.

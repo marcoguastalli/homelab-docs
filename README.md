@@ -20,9 +20,9 @@ executable and nothing deployable.
 
 ## Reading order for a new maintainer
 
-1. [architecture/000-architecture-vision.md](architecture/000-architecture-vision.md) — goals, non-goals, principles
-2. [architecture/001-system-overview.md](architecture/001-system-overview.md) — the big picture in one diagram
-3. [architecture/002-repository-model.md](architecture/002-repository-model.md) — why five repos, and their contracts
+1. [000-architecture-vision](architecture/000-architecture-vision.md) — goals and principles
+2. [001-system-overview](architecture/001-system-overview.md) — the big picture in one diagram
+3. [002-repository-model](architecture/002-repository-model.md) — why five repos, their contracts
 4. The remaining numbered documents in [architecture/](architecture/)
 5. [adr/](adr/README.md) — the decision record, including the consciously accepted trade-offs
 6. [standards/](standards/) — before writing any code or compose file
@@ -30,7 +30,7 @@ executable and nothing deployable.
 
 ## Directory map
 
-```
+```text
 architecture/   Numbered architecture documents (the "what and how")
 adr/            Architecture Decision Records (the "why") — append-only
 decisions/      Draft and rejected proposals (pre-ADR stage)

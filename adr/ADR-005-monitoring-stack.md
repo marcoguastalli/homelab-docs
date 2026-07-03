@@ -15,8 +15,8 @@ host.
 - **Prometheus + node-exporter + cAdvisor + Alertmanager** — white-box
   metrics and alerting; 15-day retention, 30 s scrape.
 - **Grafana** — dashboards, provisioned entirely from JSON in Git.
-- **Uptime Kuma** — independent black-box HTTP checks on every endpoint
-  + the `status.kirito.com` page.
+- **Uptime Kuma** — independent black-box HTTP checks on every endpoint,
+  plus the `status.kirito.com` page.
 - **ntfy** as the notification channel (push over VPN, no SMTP
   dependency). Critical → immediate push; warning → daily digest.
 - All alert rules version-controlled
