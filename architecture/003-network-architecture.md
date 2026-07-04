@@ -54,8 +54,9 @@ household; the default is Pi-hole-only. Recovery implications in
 
 ## Docker networks
 
-Created once by `homelab-infrastructure/networks/create-networks.sh` and
-declared `external: true` in every compose file.
+Created once by `homelab-infrastructure/networks/apply.sh` (the script
+stack convention deploy.sh expects) and declared `external: true` in
+every compose file.
 
 | Network | Members | Purpose |
 |---|---|---|
