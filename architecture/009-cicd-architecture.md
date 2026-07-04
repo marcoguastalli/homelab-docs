@@ -50,7 +50,7 @@ Reusable core lives in **homelab-ops**; other repos are thin callers
 
 `deploy.sh <repo> <stack>` — idempotent, locked:
 
-1. Acquire `/run/homelab-deploy.lock` (flock) — serializes deploys.
+1. Acquire `/srv/homelab/state/deploy.lock` (flock) — serializes deploys.
 2. `git fetch && checkout <exact SHA>` in `/srv/homelab/repos/<repo>`.
 3. Assert `/srv/homelab/secrets/<stack>.env` exists (actionable error if not).
 4. `docker compose --env-file … config -q` — final render with real values

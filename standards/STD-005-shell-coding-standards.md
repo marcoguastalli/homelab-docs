@@ -20,7 +20,7 @@ these rules are enforced.
    ```
 
 5. Mutating operations on shared state MUST take the flock-based lock
-   (`common.sh`) — e.g. deploys serialize on `/run/homelab-deploy.lock`.
+   (`common.sh`) — e.g. deploys serialize on `/srv/homelab/state/deploy.lock`.
 
 ## Style
 
