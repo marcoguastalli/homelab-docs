@@ -6,6 +6,8 @@ Versioning: [SemVer](https://semver.org/).
 
 ## [Unreleased]
 
+## [1.0.0] - 2026-07-07
+
 ### Added
 
 - Initial documentation set: architecture documents 000–011 + glossary,
