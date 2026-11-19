@@ -18,6 +18,7 @@ successfully end-to-end.
 | [RB-006](RB-006-update-services.md) — Update services | Monthly maintenance window | Draft |
 | [RB-007](RB-007-add-vpn-peer.md) — Add VPN peer | Enrolling a new device | Draft |
 | [RB-008](RB-008-trust-selfsigned-cert.md) — Trust the TLS cert | New device, per OS | Draft |
+| [RB-009](RB-009-reenable-disabled-scheduled-workflow.md) — Re-enable a disabled scheduled workflow | GitHub auto-disabled a cron workflow after 60 days idle | Draft |
 
 Authoring rules: [STD-004](../standards/STD-004-documentation-standards.md)
 (imperative steps, copy-pasteable commands, explicit preconditions).
